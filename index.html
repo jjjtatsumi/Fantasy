@@ -7,17 +7,9 @@
   <meta name="viewport" content="width = 1050, user-scalable = no" />
   <script type="text/javascript" src="js/jquery.min.1.7.js"></script>
   <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
-  <link href="css/basic.css" rel="stylesheet"></link>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-J55MJ72TJS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-J55MJ72TJS');
-</script>
 	
 </head>
 
@@ -77,8 +69,8 @@ function loadApp() {
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../../js/turn.js'],
-	nope: ['../../js/turn.html4.min.js'],
+	yep: ['/js/turn.js'],
+	nope: ['/js/turn.html4.min.js'],
 	both: ['css/basic.css'],
 	complete: loadApp
 });
