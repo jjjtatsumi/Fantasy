@@ -1,28 +1,30 @@
 <!doctype html>
-<html lang="jp">
-
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-<meta charset="utf-8">
 <meta name="viewport" content="width = 1050, user-scalable = no" />
-<title>未来の展覧会</title>
 <script type="text/javascript" src="js/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
 </head>
 	
 <body>
-
-<!--    <div class="bot"> -->
-	<script src="js/audio.js"></script>
-	<audio src="bgm/miraibgm.mp3" loop ></audio>
+<!--      <div class="bot"> -->
+        <audio src="bgm/miraibgm.mp3" loop ></audio>
 	<div id="play">Play</div>
         <div id="stop">Stop</div>
-	
-<!--    <div class="slider"> -->
+<!--      </div> -->
+
+<!--      <div class="slider"> -->
 	<img src="pages/volume-down.svg" width="20" Height="20">
 	<input type="range" id="volume" value="0.5" min="0.0" max="1.0" step="0.01">
         <img src="pages/volume-up.svg" width="20" Height="20">
-
+	<!--      </div> -->
   
+<script src="js/audio.js"></script>
+	
 <div class="flipbook-viewport">
 	<div class="container">
 		<div class="flipbook">
@@ -78,7 +80,6 @@
 			<div style="background-image:url(pages/50.jpg)"></div>
 			<div style="background-image:url(pages/51.jpg)"></div>
 			<div style="background-image:url(pages/52.jpg)"></div>
-			
 		</div>
 	</div>
 </div>
