@@ -66,10 +66,6 @@ body{
 	box-shadow:0 0 20px #ccc;
 }
 
-/* .audio{
-  width:273px;
-  margin-top:300px;
-}
 /*audhio ボタン
 audio {
   display: none
@@ -78,13 +74,13 @@ audio {
 
 #play, #stop {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   margin: 1em;
   border-radius: 50%;
   background: #ddd;
   text-align: center;
-  line-height: 40px;
+  line-height: 55px;
   cursor: pointer;
 }
 
